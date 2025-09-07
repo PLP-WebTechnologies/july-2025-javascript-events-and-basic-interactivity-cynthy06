@@ -1,0 +1,40 @@
+/* Reset some default margins */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #388E3C;
+  margin-bottom: 20px;
+}
+
+/* Section Styling */
+section {
+  background: white;
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Box Model Example */
+section.intro {
+  border: 2px solid #2196F3;
+  padding: 20px;
+  margin: 10px 0;
+}
+
